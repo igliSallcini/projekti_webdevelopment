@@ -1,0 +1,21 @@
+
+body{
+    margin: 0;
+}
+
+header nav img{
+    width: 30px;
+    
+}
+
+header nav ul li{
+    display inline;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: black;
+    margin-right: 20px;
+
+}

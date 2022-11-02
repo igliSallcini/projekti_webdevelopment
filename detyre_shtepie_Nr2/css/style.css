@@ -1,0 +1,112 @@
+.fshi{
+    background-color: red;
+    color: whitesmoke;
+    display: inline-flex;
+}
+
+.modifiko{
+    background-color: green;
+    color: whitesmoke;
+}
+
+.p-tabele{
+    color: green;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+.p-tab-2{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 12px;
+}
+
+button{
+    padding: 10px 16px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    border-right: 2px solid gray;
+    font-family: 'Courier New', Courier, monospace;
+    border-radius: 8px;
+}
+.fshi:hover{
+    background-color: white;
+    color: red;
+}
+
+.modifiko:hover{
+    background-color: white;
+    color: green;
+}
+
+.table tbody tr:nth-child(2) td:nth-child(3){
+    background-color: red;
+}
+.table tbody tr:nth-child(2) td:nth-child(3):hover{
+    background-color: green;
+}
+
+.table tbody tr:nth-child(4) td:nth-child(4){
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: crimson;
+}
+
+.table tbody tr:nth-child(4) td:nth-child(4):hover{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    color: crimson;
+    background-color: blue;
+}
+
+button:last-child{
+    border-right: none;
+}
+
+header{
+    color:blue;
+    text-align: center;
+    background-color: aqua;
+    
+}
+
+footer{
+    color:blue;
+    text-align: center;
+    background-color: aqua;
+}
+
+body{
+    margin: 50px;
+    padding: 5px 5px 5px 5px;
+    background-image: url();
+    text-shadow: 15px;
+}
+
+.table{
+    width:100%;
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+    border: 1px solid grey;
+    margin: 0;
+    padding: 20px;
+
+}
+
+.table td, .table th{
+    padding:12px 15px;
+    border: 1px solid blue;
+    font-size: 16px;
+}
+
+.table th{
+    background-color: darkcyan;
+    color:#ffffff;
+    font-size: 18px;
+
+}
+hr{
+    margin: 10px;
+}
