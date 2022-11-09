@@ -1,0 +1,25 @@
+li {
+  display: inline; }
+
+.input-form {
+  padding: 15px;
+  border: 1px solid gray;
+  border-radius: 15px;
+  margin: auto;
+  width: 60%;
+  background-color: #f00; }
+  .input-form input {
+    margin-bottom: 10px; }
+  .input-form button {
+    padding: 5px 15px; }
+
+.contact {
+  margin-left: 35px; }
+
+input {
+  border-radius: 7px; }
+
+button {
+  border-radius: 8px; }
+
+/*# sourceMappingURL=style.css.map */
