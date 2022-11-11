@@ -101,6 +101,7 @@ header nav ul li img:first-child{
     /* display: inline; */
     /* vertical-align: middle; */
     /* position: relative; */
+    position: relative;
     display: flex;
     /* text-decoration: none; */
     /* color: black; */
@@ -135,8 +136,10 @@ body nav.nd-nav li{
 /* CSS per galerine */
 
 .galeri{
-    margin: auto;
-    width: 100%;
+    position: absolute;
+    top: 3%;
+    width: 70%;
+    height: 80%;
     padding: 40px;
     /* position: relative; */
     /* padding-top: 30px; */
@@ -148,11 +151,12 @@ body nav.nd-nav li{
 }
 
 .grupi1{
-    position:relative;
-    left: 10px;
-    top: 10px;
-    width: 250px;
-    height: 380px;
+    position:absolute;
+    left: 7%;
+    top: 45%;
+    width: 33%;
+    height: 50%;
+    /* height: 90%; */
     /* border: 1px solid grey; */
     background-color: lightgrey;
     border-radius: 15px;
@@ -160,11 +164,11 @@ body nav.nd-nav li{
 }
 
 .grupi2{
-    position:relative;
-    left: 300px;
-    top: -390px;
-    width: 250px;
-    height: 380px;
+    position:absolute;
+    left: 45%;
+    top: 45%;
+    width: 33%;
+    height: 50%;
     /* border: 1px solid grey; */
     background-color: lightgrey;
     border-radius: 15px;
@@ -172,37 +176,46 @@ body nav.nd-nav li{
 }
 
 .grupi3{
-    position:relative;
-    left: 590px;
-    top: -790px;
-    width: 250px;
-    height: 380px;
+    position:absolute;
+    left: 83%;
+    top: 45%;
+    width: 33%;
+    height: 50%;
     /* border: 1px solid grey; */
     background-color: lightgrey;
     border-radius: 15px;
     padding: 10px;    
 }
 
+.divdog{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    
+
+    
+}
+
 .divdog img{
     position: absolute;
-    left: 20px;
-    top: 40px;
+    left: 10%;
+    top: 10%;
     width: 80%;
     z-index: 10;
 }
 
 .premium-ico img{
     position: absolute;
-    left: 120px;
-    top: 50px;
-    width: 10%;
+    left: 50%;
+    top: 6%;
+    width: 6%;
     z-index: 15;
 }
 
 .premium{
     position: absolute;
-    left: 155px;
-    top: 45px;
+    left: 60%;
+    top: 3%;
     z-index: 15;
     font-size: 12px;
     foncolot: grey;
@@ -210,24 +223,24 @@ body nav.nd-nav li{
 
 .bs-dwnl-ico img{
     position: absolute;
-    left: 200px;
-    top: 340px;
+    left: 80%;
+    top: 85%;
     width: 10%;
     z-index: 30;
 }
 .dwnl{
     z-index: 29;
     position: absolute;
-    left: 70px;
-    bottom: 5px;
+    left: 30%;
+    bottom: 2%;
     font-size: 25px;
 
 }
 
 .image{
     position: absolute;
-    left: 60px;
-    bottom: 50px;
+    left: 18%;
+    bottom: 12%;
     z-index: 28;
     font-size: 22px;
 }
